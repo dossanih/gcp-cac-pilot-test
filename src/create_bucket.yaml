@@ -1,0 +1,6 @@
+AWSTemplateFormatVersion: "2010-09-09"
+Resources:
+ PoCS3Bucket:
+   Type: "AWS::S3::Bucket"
+   Properties:
+     BucketName: "temp-bucket-533267386226"
